@@ -1,0 +1,21 @@
+body
+{
+  background-color: gray;
+
+}
+
+input[type="checkbox"]
+{content: url('images/meme2.jpg');
+appearance: none;
+  display: block;
+  margin: auto;
+  width: 50%;
+  border-radius: 0px 30px 30px 0px;
+}
+input[type="checkbox"]:checked {
+    content: url('images/meme1.jpg');
+}
+input[type="checkbox"]:hover
+{
+  cursor: pointer;
+}
